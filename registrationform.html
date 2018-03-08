@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <meta charset="utf-8">
+         <title>My Registration Form</title>
+         <meta name="description" content="This is the registration form to gather data about potential students interesed in programming languages!" >
+    <body>
+
+    <form>    
+        <h1><strong>My Registration Form</strong></h1>
+       
+        <div class="basicInfo" >
+             <label>
+                 First Name: <input type="text" name="firstName" style="margin-left: 49px;">
+             </label>
+         </div>
+         <div>
+             <br>
+             <label>
+                  Last Name: <input type="text" name="lastName" style="margin-left: 50px;">
+             </label>
+        </div>
+        <div>
+            <br>
+             <label>
+             Email: <input type="email" name="email" style="margin-left: 80px;">
+            </label>
+         </div>
+         <div>
+             <br>
+            <label>
+                 Password: <input type="password" name="password"style="margin-left: 57px;" >
+            </label>
+        </div>
+         <div>
+             <br>
+             <label>
+                 PW Confirmation: <input type="password" name="pw_confirmation" style="margin-left: 5px;">
+             </label>
+         </div>
+         <div>
+              <br>
+             <label>
+             Birthday:      <input type="date" name="birthday" style="margin-left: 63px;">
+             </label>
+        </div>
+        <div>
+             <br>
+             <label for="male">Male</label>
+             <input type="radio" id="male" name="gender" value="male">
+             <label for="female">Female</label>
+             <input type="radio" id="female" name="gender" value="female">
+             <label for="other">Other</label>
+             <input type="radio" id="other" name="gender" value="other">
+         </div>
+            <div>
+                 <br>
+                 <p>A short description of yourself:</p>
+                <textarea name="description"></textarea>
+            </div>
+             <div>
+                <br>
+                <label for="favoriteLanguage">Favorite Language:</label>
+                <select name="favoriteLanguage" id="favoriteLanguage">
+                    <option value="JavaScript">JavaScript</option>
+                    <option value="Python">Python</option>
+                    <option value="C++">C++</option>
+                </select>
+             </div>
+             <div>
+                  <br>
+                     <input type="submit" value="Submit">
+             </div>
+        </form>
+    </body>
+</html>
