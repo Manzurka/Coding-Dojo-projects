@@ -1,0 +1,122 @@
+*{
+    margin:0px auto;
+}
+#wrapper{
+    width:1000px;
+    height:auto;
+}
+#header{
+    background-color: honeydew;
+    padding:20px;
+    width:auto;
+    height:10%;
+}
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size:2em;
+    font-style:italic;
+    text-align:left;
+    position:absolute;
+    top:20px;
+}
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1,5em;
+    font-style: italic;   
+    text-align:right;
+}
+#purplebackground{
+    background-color:purple;
+    width:auto;
+    height:80%; 
+}
+#textaboutme{
+    background: linear-gradient(to bottom right,#f3e6f2, #eba7e6);
+    width: 500px;
+    height:auto;
+    margin:20px;
+    padding-bottom:15px;
+    display:inline-block;
+}
+#textaboutme p, a{
+    padding:10px;
+}
+#mainimage {
+    border:6px solid pink;
+    width:400px;
+    margin:20px;
+    display:inline-block;
+    vertical-align:top;
+}
+.text {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    color:black;
+}
+h3{
+    font-family:  'Times New Roman', Times, serif;
+    text-shadow: 1px 1px 1px #000;
+    font-size: 28px;
+    background: linear-gradient(#9b9aa3,#bcb5b8,#8d8b97);
+    color:white;
+    text-indent: 30px;
+    padding:10px;
+}
+a{
+    color:black;
+    font-size:18px;
+}
+.block{
+    width:300px;
+    height:auto;
+    margin:10px;
+    display:inline-block;
+    vertical-align:top;
+    background: linear-gradient(to bottom right,#f3e6f2, #eba7e6);
+    padding-bottom:30px;
+}
+.secondaryimage{
+    width:300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.block p:nth-of-type(2){
+    padding:10px;
+    padding-bottom:5px;
+}
+.logos{
+    width:45px;
+    padding:2px;
+}
+.heading{
+    background: linear-gradient(#9b9aa3,#bcb5b8,#8d8b97);
+    color:white;
+    text-align: left;
+    padding:15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgb(73, 68, 68);
+}
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+#footer {
+    padding:7px;
+    text-align:center;
+    font-family: 'Times New Roman', Times, serif;
+    font-style:italic;
+}
+.socialmedia{
+    width:20px;
+}
+

@@ -1,0 +1,20 @@
+* {
+    outline:
+}
+
+#red {
+    background-color: red;
+}
+#wrapper {
+    margin:0px auto;
+    width:1000px;
+    height:1000px;
+}
+#wrapper div:last-child {
+    background-color: blue;
+    display: inline-block;
+    vertical-align: top;
+    width:200px;
+    height:200px;
+    position: fixed;
+}
